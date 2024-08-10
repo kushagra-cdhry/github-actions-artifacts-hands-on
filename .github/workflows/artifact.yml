@@ -32,4 +32,4 @@ jobs:
     - name: Set file permissions
       run: chmod +r ./artifacts/hello.txt
     - name: Display content of .txt file
-      run: ./artifacts/hello.txt
+      run: cat ./artifacts/hello.txt
